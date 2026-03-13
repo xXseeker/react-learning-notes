@@ -38,3 +38,51 @@ const element = <h1>Привет мир!</h1>;
 ```
 
 Похоже на HTML, но это не он.
+
+- В JSX можно вставлять JavaScript код через {}
+
+```javascript
+function App(){
+    const name = "Леша"
+
+    return (
+        <div>
+            <h1>Привет, {$name}</h1>
+        <div>
+    )
+}
+```
+
+- Всегда нужно возвращать лишь один родительский элемент.
+
+Так нельзя:
+
+```javascript
+function App(){
+    const name = "Леша"
+
+    return (
+        <div>
+            <h1>Привет, {$name}</h1>
+        <div>
+        <div>
+            <h2>Как дела?</h2>
+        <div>
+    )
+}
+```
+
+Правильный вариант(возвращается только один div, в котором уже находятся другие элементы):
+
+```javascript
+function App(){
+    const name = "Леша"
+
+    return (
+        <div>
+            <h1>Привет, {$name}</h1>
+            <h2>Как дела?</h2>
+        <div>
+    )
+}
+```

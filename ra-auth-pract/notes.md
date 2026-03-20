@@ -24,8 +24,9 @@
 2.  Что нужно установить через npm:  
     `npm install express bcrypt jsonwebtoken cors`
 
-    **express:**  
-     Основа backend-сервера.
+    ### express:
+
+    Основа backend-сервера.
 
     Нужен для:
     - создания сервера,
@@ -33,8 +34,9 @@
     - req, res,
     - app.listen().
 
-    **bcrypt**  
-    `Нужен для хеширования паролей.`
+    ### bcrypt:
+
+    Нужен для хеширования паролей.
 
     Используем для:
     - bcrypt.hash(password, 10) — создать хеш

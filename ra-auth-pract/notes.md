@@ -25,10 +25,9 @@
     `npm install express bcrypt jsonwebtoken cors`
 
     **express:**  
-    Основа backend-сервера.
-
-        Нужен для:
-         - создания сервера,
-         - маршрутов GET, POST,
-         - req, res,
-         - app.listen().
+     Основа backend-сервера.  
+     Нужен для:
+    - создания сервера,
+    - маршрутов GET, POST,
+    - req, res,
+    - app.listen().

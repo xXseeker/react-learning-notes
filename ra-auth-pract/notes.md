@@ -1,11 +1,11 @@
 ## Как создать серверную часть и клиентскую часть авторизации.
 
 1.  Архитектура папок:
-    ra-auth-pract/
-    ├── client/
-    │ ├── node_modules/
-    │ ├── public/
-    │ ├── src/
+    ra-auth-pract/  
+    ├── client/  
+    │ ├── node_modules/  
+    │ ├── public/  
+    │ ├── src/  
     │ │ ├── components/
     │ │ │ ├ LoginPage.jsx
     │ │ │ ├ ProfilePage.jsx

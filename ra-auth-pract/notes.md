@@ -1,27 +1,29 @@
 ## Как создать серверную часть и клиентскую часть авторизации.
 
-1.  Архитектура папок:
-    ra-auth-pract/  
-    ├── client/  
-    │ ├── node_modules/  
-    │ ├── public/  
-    │ ├── src/  
-    │ │ ├── components/  
-    │ │ │ ├ LoginPage.jsx  
-    │ │ │ ├ ProfilePage.jsx  
-    │ │ │ └ ProtectedRoute.jsx  
-    │ │ ├── App.css  
-    │ │ ├── App.jsx  
-    │ │ ├── index.css  
-    │ │ └── main.jsx  
-    │ └── (файлы рабочего окружения React)  
-    │  
-    └── server/  
-    ├── package-lock.json  
-    ├── package.json  
+## 1. Архитектура папок:
+
+    ra-auth-pract/
+    ├── client/
+    │ ├── node_modules/
+    │ ├── public/
+    │ ├── src/
+    │ │ ├── components/
+    │ │ │ ├ LoginPage.jsx
+    │ │ │ ├ ProfilePage.jsx
+    │ │ │ └ ProtectedRoute.jsx
+    │ │ ├── App.css
+    │ │ ├── App.jsx
+    │ │ ├── index.css
+    │ │ └── main.jsx
+    │ └── (файлы рабочего окружения React)
+    │
+    └── server/
+    ├── package-lock.json
+    ├── package.json
     └── server.js
 
-2.  Что нужно установить через npm:  
+## 2. Что нужно установить через npm:
+
     `npm install express bcrypt jsonwebtoken cors`
 
     ### express:
@@ -58,3 +60,8 @@
     - frontend: localhost:5173
     - backend: localhost:3000
     - Без cors браузер может блокировать запросы.
+
+## 3. Что ещё полезно установить.
+
+`npm install --save-dev nodemon `  
+Нужен, чтобы сервер автоматически перезапускался после изменения файла.

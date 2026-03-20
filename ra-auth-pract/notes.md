@@ -6,25 +6,25 @@
     │ ├── node_modules/  
     │ ├── public/  
     │ ├── src/  
-    │ │ ├── components/
-    │ │ │ ├ LoginPage.jsx
-    │ │ │ ├ ProfilePage.jsx
-    │ │ │ └ ProtectedRoute.jsx
-    │ │ ├── App.css
-    │ │ ├── App.jsx
-    │ │ ├── index.css
-    │ │ └── main.jsx
-    │ └── (файлы рабочего окружения React)
-    │
-    └── server/
-    ├── package-lock.json
-    ├── package.json
+    │ │ ├── components/  
+    │ │ │ ├ LoginPage.jsx  
+    │ │ │ ├ ProfilePage.jsx  
+    │ │ │ └ ProtectedRoute.jsx  
+    │ │ ├── App.css  
+    │ │ ├── App.jsx  
+    │ │ ├── index.css  
+    │ │ └── main.jsx  
+    │ └── (файлы рабочего окружения React)  
+    │  
+    └── server/  
+    ├── package-lock.json  
+    ├── package.json  
     └── server.js
 
-2.  Что нужно установить через npm:
+2.  Что нужно установить через npm:  
     `npm install express bcrypt jsonwebtoken cors`
 
-    **express:**
+    **express:**  
     Основа backend-сервера.
 
         Нужен для:

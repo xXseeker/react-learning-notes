@@ -41,3 +41,20 @@
     Используем для:
     - bcrypt.hash(password, 10) — создать хеш
     - bcrypt.compare(password, passwordHash) — проверить пароль
+
+    ### jsonwebtoken:
+
+    Нужен для работы с JWT.
+
+    Используем для:
+    - jwt.sign(...) — создать токен
+    - jwt.verify(...) — проверить токен
+
+    ### cors:
+
+    Нужен, чтобы React frontend мог отправлять запросы на backend с другого порта.
+
+    Например:
+    - frontend: localhost:5173
+    - backend: localhost:3000
+    - Без cors браузер может блокировать запросы.

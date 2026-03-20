@@ -24,42 +24,46 @@
 
 ## 2. Что нужно установить через npm:
 
-    `npm install express bcrypt jsonwebtoken cors`
+`npm install express bcrypt jsonwebtoken cors`
 
-    ### express:
+### express:
 
-    Основа backend-сервера.
+Основа backend-сервера.
 
-    Нужен для:
-    - создания сервера,
-    - маршрутов GET, POST,
-    - req, res,
-    - app.listen().
+Нужен для:
 
-    ### bcrypt:
+- создания сервера,
+- маршрутов GET, POST,
+- req, res,
+- app.listen().
 
-    Нужен для хеширования паролей.
+### bcrypt:
 
-    Используем для:
-    - bcrypt.hash(password, 10) — создать хеш
-    - bcrypt.compare(password, passwordHash) — проверить пароль
+Нужен для хеширования паролей.
 
-    ### jsonwebtoken:
+Используем для:
 
-    Нужен для работы с JWT.
+- bcrypt.hash(password, 10) — создать хеш
+- bcrypt.compare(password, passwordHash) — проверить пароль
 
-    Используем для:
-    - jwt.sign(...) — создать токен
-    - jwt.verify(...) — проверить токен
+### jsonwebtoken:
 
-    ### cors:
+Нужен для работы с JWT.
 
-    Нужен, чтобы React frontend мог отправлять запросы на backend с другого порта.
+Используем для:
 
-    Например:
-    - frontend: localhost:5173
-    - backend: localhost:3000
-    - Без cors браузер может блокировать запросы.
+- jwt.sign(...) — создать токен
+- jwt.verify(...) — проверить токен
+
+### cors:
+
+Нужен, чтобы React frontend мог отправлять запросы на backend с другого порта.
+
+Например:
+
+- frontend: localhost:5173
+- backend: localhost:3000
+- Без cors браузер может блокировать запросы.
 
 ## 3. Что ещё полезно установить.
 
